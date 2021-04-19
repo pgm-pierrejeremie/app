@@ -1625,6 +1625,11 @@ mark,
   color: white;
   font-family: "Fira Sans", sans-serif;
   text-decoration: none;
+  transition: 0.3s;
+}
+.nav__list-item a:hover {
+  color: #3700B3;
+  transition: 0.3s;
 }
 @media (min-width: 880px) {
   .nav__list {
@@ -1664,7 +1669,7 @@ mark,
 }
 .footer-nav__list-item {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 500;
 }
 .footer-nav__list-item > a {
@@ -1698,7 +1703,7 @@ body {
 
 .footer {
   border-top: 1px solid #e9ecef;
-  background: #543195;
+  background: #3700B3;
   color: #f8f9fa;
   padding: 72px 0;
 }
