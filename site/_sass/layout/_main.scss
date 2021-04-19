@@ -1,3 +1,20 @@
 .main {
     flex: 1;
+
+}
+.landing{
+    padding:3rem 0;
+    .article{
+        font-family: $font-family-fira;
+        margin: auto;
+        &--title{
+            font-weight:600;
+        }
+        &--text{
+            font-weight: 400;
+        }
+    }
+}
+.arrow{
+    text-align: center;
 }
