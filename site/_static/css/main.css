@@ -1607,7 +1607,7 @@ mark,
   font-weight: 300;
 }
 .logo a {
-  color: #212529;
+  color: red;
 }
 
 .nav {
@@ -1684,6 +1684,11 @@ mark,
 }
 .footer-nav__list-item--active > a {
   color: rgba(248, 249, 250, 0.48);
+}
+
+.lol {
+  width: 350px;
+  height: 300px;
 }
 
 body {
