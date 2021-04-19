@@ -1712,6 +1712,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  overflow-x: hidden;
 }
 
 .header {
@@ -1720,6 +1721,24 @@ body {
 
 .main {
   flex: 1;
+}
+
+.landing {
+  padding: 3rem 0;
+}
+.landing .article {
+  font-family: "Fira Sans", sans-serif;
+  margin: auto;
+}
+.landing .article--title {
+  font-weight: 600;
+}
+.landing .article--text {
+  font-weight: 400;
+}
+
+.arrow {
+  text-align: center;
 }
 
 .footer {
