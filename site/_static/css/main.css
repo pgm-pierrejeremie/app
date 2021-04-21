@@ -1690,6 +1690,13 @@ iframe {
   width: 55%;
   height: 600px;
 }
+@media screen and (max-width: 1116px) {
+  iframe {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+}
 
 .article__flex {
   display: flex;
@@ -1702,9 +1709,16 @@ iframe {
   background-color: #141414;
 }
 .article__flex--inner {
-  width: 35%;
+  width: 25rem;
   color: white;
   text-align: center;
+}
+@media screen and (max-width: 1116px) {
+  .article__flex--inner {
+    width: 68%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
 }
 .article__flex--inner h1 {
   text-align: left;
@@ -1716,7 +1730,18 @@ iframe {
 .article__flex img {
   width: 55%;
 }
+@media screen and (max-width: 1116px) {
+  .article__flex img {
+    width: 75%;
+    margin: auto;
+  }
+}
 
+@media screen and (max-width: 1116px) {
+  .article__flex {
+    flex-direction: column;
+  }
+}
 .contactform {
   margin-left: auto;
   margin-right: auto;
@@ -1778,7 +1803,7 @@ input {
   height: 2.5rem;
 }
 input[type=submit] {
-  width: 10%;
+  width: 5rem;
   font-size: 0.7rem;
   margin-top: 2rem;
   border: none;
