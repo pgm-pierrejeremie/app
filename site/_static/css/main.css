@@ -1687,24 +1687,120 @@ mark,
 }
 
 iframe {
-  width: 50%;
-  height: 500px;
+  width: 55%;
+  height: 600px;
 }
 
-.map {
+.article__flex {
   display: flex;
   align-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  background-color: #141414;
+}
+.article__flex--inner {
+  width: 35%;
+  color: white;
+  text-align: center;
+}
+.article__flex--inner h1 {
+  text-align: left;
+  text-decoration: underline palegoldenrod;
+}
+.article__flex--inner p {
+  margin-top: 5rem;
+}
+.article__flex img {
+  width: 55%;
 }
 
 .contactform {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   margin-bottom: 10rem;
+  font-family: "Fira Sans", sans-serif;
+}
+.contactform__inner {
+  justify-content: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactform__inner--first {
+  width: 100%;
+}
+.contactform__inner select {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 3.5rem;
+  border: solid 1px #757575;
+  border-radius: 7px;
+}
+.contactform__inner #message {
+  height: 7rem;
+}
+.contactform__inner #message:focus {
+  background-color: #e0dfdf;
 }
 
-.contactform__inner {
+.form__section {
+  display: flex;
+  justify-content: space-between;
+}
+.form__section--inner {
+  width: 45%;
+  margin-bottom: 2rem;
+}
+.form__section--inner label {
+  font-size: 0.8rem;
+}
+.form__section--inner input {
+  height: 2.5rem;
+  border: solid 2px #757575;
+  border-radius: 7px;
+}
+.form__section--inner input:focus {
+  background-color: #e0dfdf;
+  border-color: black;
+  outline: none;
+  transition: 0.5s;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  height: 2.5rem;
+}
+input[type=submit] {
+  width: 10%;
+  font-size: 0.7rem;
+  margin-top: 2rem;
+  border: none;
+  color: white;
+  background-color: black;
+}
+input[type=submit]:hover {
+  transition: 1s;
+  background-color: #e0dfdf;
+  color: black;
+  border: solid 2px black;
+}
+
+.form__info p {
+  font-size: 1.3rem;
   text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
+  padding-bottom: 2rem;
+  border-bottom: solid black;
 }
 
 body {
