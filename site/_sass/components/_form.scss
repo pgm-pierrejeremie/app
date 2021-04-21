@@ -1,11 +1,104 @@
-$width: 500px;
+
+
 .contactform{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     margin-bottom: 10rem;
+    font-family: $font-family-fira;
+
+    &__inner{
+        justify-content: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        &--first{
+            width: 100%;
+        }
+
+        select{
+            width: 100%;
+            height: 2.5rem;
+            margin-bottom: 3.5rem;
+            border: solid 1px rgb(117, 117, 117);
+            border-radius: 7px;
+        }
+
+        #message{
+            height: 7rem;
+
+            &:focus{
+                background-color: $grayish-color;
+            }
+        }
+
+        
+    }
 }
 
-.contactform__inner{
-   text-align: center;
+
+.form__section{
+    display: flex;
+    justify-content: space-between;
+
+    &--inner{
+        width: 45%;
+        margin-bottom: 2rem;
+
+        label{
+            font-size: 0.8rem;
+        }
+
+        input{
+            height: 2.5rem;
+            border: solid 2px rgb(117, 117, 117);
+            border-radius: 7px;
+        
+            &:focus{
+                background-color: $grayish-color;
+                border-color: black ;
+                outline: none;
+                transition: 0.5s;
+            }
+        }
+    }
 }
+
+label{
+        text-align: left;
+    }
+
+    input{
+        width: 100%;
+        height: 2.5rem;
+        &[type=submit]{
+            width: 10%;
+            font-size: 0.7rem;
+            margin-top: 2rem;
+            border: none;
+            color: white;
+            background-color: black;
+
+            &:hover{
+                transition: 1s;
+                background-color: $grayish-color;
+                color: black;
+                border: solid 2px black;
+            }
+        }
+ }
+
+ .form__info{
+
+    p{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5.5rem;
+        padding-bottom: 2rem;
+        border-bottom: solid black;
+    }
+ }
+

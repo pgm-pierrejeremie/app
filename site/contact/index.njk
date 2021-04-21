@@ -6,16 +6,39 @@ eleventyNavigation:
 title: Contact
 ---
 
-<h1>{{ title}}</h1>
+<article class="article__flex">
+  <div class="article__flex--inner">
+    <h1>{{title}}</h1>
+    <p class="article--text" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+  </div>
+  
+  <img src="http://images6.fanpop.com/image/photos/41200000/contact-ayjsolicitors-41261359-1200-630.jpg" alt="Contact">
+ 
+</article>
+
+<div class="form__info">
+  <p>Fill out the form below with all necessary information in regards to your questioning.
+  Provide the correct information in order for your message to reach us.<br><br> We will get back to you as soon as possible. 
+  </p>
+</div>
+
+
 
 {% include "components/form.njk" %}
     
 
-    <div class="map"> 
+    <div class="article__flex"> 
       {% include "components/map.njk" %} 
-      <div>
+      <div class="article__flex--inner">
         <h1>Navigation</h1><br>
-        Elaborate and find your way around by using the embedded map !
+        <p class="article--text" >Elaborate and find your way around by using the embedded map !
+        You may use the map to find our enterprises and our headquarters if you'd be keen to do so. <br><br><br>
+        © This map has been provided by MapBox.
+        </p>
         </div>
 
 

@@ -1,9 +1,36 @@
 iframe{
-    width: 50%;
-    height:500px
+    width: 55%;
+    height:600px
 }
 
-.map{
+.article__flex{
    display: flex;
    align-content: space-between;
-}
+   justify-content:space-around;
+   padding-bottom: 5rem;
+   padding-top: 5rem;
+   border-bottom: 3px solid white;
+   border-top: 3px solid white;
+   background-color: #141414;
+   
+   &--inner{
+       width: 35%;
+       color: white;
+       text-align: center;
+
+       h1{
+           text-align: left;
+           text-decoration: underline  palegoldenrod;
+       }
+
+       p{
+           margin-top: 5rem;
+       }
+   }
+
+    img{
+        width: 55%;
+    }
+ }
+
+
