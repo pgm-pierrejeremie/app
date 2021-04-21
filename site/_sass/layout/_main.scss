@@ -2,8 +2,10 @@
     flex: 1;
 
 }
+
 .landing{
     padding:3rem 0;
+    
     .article{
         font-family: $font-family-fira;
         margin: auto;
@@ -14,7 +16,14 @@
             font-weight: 400;
         }
     }
+    &--image{
+        &-pic{
+            width:100%;
+        }
+    }
 }
 .arrow{
     text-align: center;
+    margin-top:4;
+    padding:1rem 0;
 }
