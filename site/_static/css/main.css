@@ -1708,6 +1708,9 @@ iframe {
   border-top: 3px solid white;
   background-color: #141414;
 }
+.article__flex h1 {
+  font-size: 2rem;
+}
 .article__flex--inner {
   width: 25rem;
   color: white;
