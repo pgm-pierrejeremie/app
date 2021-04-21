@@ -1832,6 +1832,9 @@ body {
 .landing .article--text {
   font-weight: 400;
 }
+.landing--image-pic {
+  width: 100%;
+}
 
 .arrow {
   text-align: center;
