@@ -1,10 +1,22 @@
-  <img src="{{ wallpaper | url }} " alt="Detailtop" width=100% height=700px>
+  <img src="{{ wallpaper | url }} " alt="Detailtop" width=100% height=700rem>
 
 <section class="detail__intro">
+        <div class="detail__intro--first">
         <ul>
-            <li><b>Client: </b><div class="li__div">{{client.name}} </div></li>
-            <li><b>Request: </b><div class="li__div">{{client.request}} </div> </li>
-            <li><b>Result: </b> <div class="li__div"><a href="{{client.link}} ">{{client.link}} </a></div> </li>
-            <li><b>Client: </b> <div class="li__div"> {{client.name}} </div></li>
+          <li>client: </li>
+          <li>request:</li>
+          <li>Technology: </li>
+          <li>Result: </li>
         </ul>
+        </div>
+        
+        <div class="detail__intro--second">
+        <ul>
+          <li>{{client.name}} </li>
+          <li>{{client.request}} </li>
+          <li>{{technology.name}} </li>
+          <li><a href="{{client.link}}">{{client.link}}</a> </li>
+        
+        </ul>
+        </div>
 </section>

@@ -1,13 +1,14 @@
 ---
 layout: layouts/post.njk
-title: Some title
+title: Breitling | Detail
 thumbnail: /static/images/project-1-logo.jpg
 tags: posts
 wallpaper: /static/images/watchdetail.jpg
 
 testimony:
   quote:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  cite: johan
+  cite: Mervin DuLocke
+  occupation: Chief executer officer
 
 chapter:
   heading_1: Breitling
@@ -31,7 +32,6 @@ client:
   request: A highly interactive webpage
   
 ---
-
 <div class="technology__container">
     <div class="technology__wrapper">
         <div class="technology__wrapper--first">
