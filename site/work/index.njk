@@ -3,4 +3,8 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: Work
   order: 3
+title: Work
+permalink: /work/
 ---
+{% set postlist = collections.posts %}
+{% include "layouts/postlist.njk" %}

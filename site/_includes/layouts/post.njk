@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+
+
+{% include "components/detail-top.njk" %}
+
+<article class="detail__about">
+    <h2>{{client.synopsis}}</h2>
+    <p>{{chapter.content_1}} </p>
+</article> 
+
+<div class="debut__post">
+    <div class="debut__post--wrapper">
+        <div class="debut__post--wrapper--first">
+
+            <img src=" {{client.logo | url}} ">
+        </div>
+
+        <div class="debut__post--wrapper--second">
+            <h2>{{chapter.heading_1}} </h2>
+            <p>{{chapter.content_2}} </p>
+        </div>
+    </div>
+</div>
+
+{% include "components/detail-middle.njk" %}
+
+    {{content | safe}}
+    
+{% include "components/detail-testimony.njk" %}
+
+ 

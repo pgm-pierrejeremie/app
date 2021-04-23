@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Contact
   order: 5
 title: Contact
+
 ---
 
 <article class="article__flex">
@@ -26,20 +27,12 @@ title: Contact
   </p>
 </div>
 
-
-
 {% include "components/form.njk" %}
     
 
-    <div class="article__flex"> 
-      {% include "components/map.njk" %} 
-      <div class="article__flex--inner">
-        <h1>Navigation</h1><br>
-        <p class="article--text" >Elaborate and find your way around by using the embedded map !
-        You may use the map to find our enterprises and our headquarters if you'd be keen to do so. <br><br><br>
-        © This map has been provided by MapBox.
-        </p>
-        </div>
+
+{% include "components/map.njk" %} 
+    
 
 
 
