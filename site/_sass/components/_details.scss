@@ -1,0 +1,165 @@
+.detail__intro{
+
+    ul{
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75rem;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.detail__about{
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-family: $font-family-fira;
+    
+    p{
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    
+    h2{
+        margin-bottom: 1.5rem;
+        text-decoration: palegoldenrod underline;
+    }
+
+    }
+
+.debut__post{
+   
+    &--wrapper{
+    font-family: $font-family-fira;
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    
+    img{
+        width: 20rem;
+    }
+
+    &--first {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &--second{
+        width: 35rem;
+
+        h2{
+            margin-bottom: 3rem;
+            text-decoration: palegoldenrod underline;
+        }
+
+        p{
+            font-size: 1.15rem;
+            text-align: center;
+        }
+    }
+    }
+}
+
+.detail__about--middle{
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: $font-family-fira;
+    
+    p{
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    
+    h2{
+        margin-bottom: 1.5rem;
+    }
+}
+
+.technology__container{
+
+    background-color: black;
+    margin-top: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: $font-family-fira;
+    
+    img{
+        width: 25rem;
+    }
+
+    h2{
+        color: white;
+    }
+    
+    p{
+        color: white;
+    }
+}
+
+.technology__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 85rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    &--first{
+        width: 45rem;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        h2{
+            padding-bottom: 3rem;
+            color: palegoldenrod;
+        }
+
+        p{
+            font-size: 1.3rem;
+        }
+    }
+
+    &--second{
+        
+        h2{
+            text-align: center;
+            margin-top: 2rem;
+            color: palegoldenrod;
+        }
+    }
+}
+
+
+
+.blockquote{
+    border-top: 3px solid $grayish-color; 
+    margin-top: 10rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    .blockquote__inner{
+
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    cite{
+        font-size: 1.4rem ;
+        color: $primary-color;
+    }
+}
+}
