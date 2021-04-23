@@ -1,0 +1,12 @@
+[
+    {
+        "title":"Services",
+        "description":"Check out our services we provide!",
+        "img":"test"
+    },
+    {
+        "title":"Work",
+        "description":"Check out our work and jobs we did in the past!",
+        "img":"test"
+    }
+]
