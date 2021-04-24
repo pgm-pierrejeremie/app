@@ -1,0 +1,52 @@
+.works{
+
+    font-family: $font-family-fira;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15rem;
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5rem;
+        margin-top: 12rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        color: $white;
+        h2{
+                margin-bottom: 2rem;
+                text-decoration: underline palegoldenrod;
+            }
+
+            h3{
+                color: palegoldenrod;
+            }
+
+            p{
+                padding-top: 3rem;
+                padding-bottom: 1rem;
+            }
+            a{
+                text-align: right;
+                color: palegoldenrod;
+                text-decoration: underline;
+            }
+
+        &--first{
+
+          img{
+              width:100%;
+          }
+
+          &--second{
+              width: 70%;
+          }
+        }
+        
+        
+        
+
+    }
+}

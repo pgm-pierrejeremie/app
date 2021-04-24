@@ -1831,6 +1831,46 @@ input[type=submit]:hover {
   border-bottom: solid black;
 }
 
+.works {
+  font-family: "Fira Sans", sans-serif;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15rem;
+}
+.works__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5rem;
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #FFFF;
+}
+.works__inner h2 {
+  margin-bottom: 2rem;
+  text-decoration: underline palegoldenrod;
+}
+.works__inner h3 {
+  color: palegoldenrod;
+}
+.works__inner p {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.works__inner a {
+  text-align: right;
+  color: palegoldenrod;
+  text-decoration: underline;
+}
+.works__inner--first img {
+  width: 100%;
+}
+.works__inner--first--second {
+  width: 70%;
+}
+
 .detail__intro {
   display: flex;
   margin-left: auto;
