@@ -2156,9 +2156,10 @@ input[type=submit]:hover {
   color: white;
   padding: 1rem;
 }
-.buttons--blue {
+.buttons .more--blue {
   background-color: #3700B3;
   color: white;
+  padding: 1rem;
 }
 
 body {
@@ -2232,6 +2233,17 @@ body {
 
 .pict img {
   width: 100%;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.customers__logo-img {
+  width: 10rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
 }
 
 .footer {
