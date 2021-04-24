@@ -6,7 +6,7 @@
     },
     {
         "title":"Work",
-        "description":"Check out our work and jobs we did in the past!",
-        "img":"test"
+        "description":"We work tailor-made for international companies and SMEs. Large organizations such as Soudal, Gezinsbond and TVH count on Dropsolid for fully developed customized customer journeys and for complex stakeholder management. This is how they accomplish their digital transformation.",
+        "img":"./static/images/work.jpg"
     }
 ]
