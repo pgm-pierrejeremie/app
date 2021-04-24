@@ -62,3 +62,15 @@
         width:100%;
     }
 }
+.customers{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    &__logo{
+        &-img{
+            width:10rem;
+            filter: grayscale(100%);
+            opacity: 0.5;
+        }
+    }
+}

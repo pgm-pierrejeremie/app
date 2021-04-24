@@ -2181,9 +2181,34 @@ input[type=submit]:hover {
   color: white;
   padding: 1rem;
 }
-.buttons--blue {
+.buttons .more--blue {
   background-color: #3700B3;
   color: white;
+  padding: 1rem;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.team__person {
+  background-color: #e0dfdf;
+  text-align: center;
+  padding: 2rem;
+}
+.team__person-img {
+  width: 50%;
+  border-radius: 50%;
+}
+.team__person .team-art {
+  margin-top: 2rem;
+}
+.team__person .team-art__socials ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 body {
@@ -2257,6 +2282,17 @@ body {
 
 .pict img {
   width: 100%;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.customers__logo-img {
+  width: 10rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
 }
 
 .footer {

@@ -46,3 +46,12 @@ description: Get great at designing amazing websites and mobile applications wit
     </div>
 {% endfor %}
 </div>
+<div class="container">
+    <div class="customers row">
+    {% for customer in customers %}
+        <div class="col-6 customers__logo">
+            <img src="{{ customer.logo }}" alt="" class="customers__logo-img">
+        </div>
+    {% endfor %}
+    </div>
+</div>
