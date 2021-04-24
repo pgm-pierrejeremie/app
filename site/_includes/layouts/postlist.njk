@@ -1,11 +1,19 @@
 
-{{title}}
-<ul>
-    {% for post in postlist %}
-        <li>
-            <a href="{{ post.url | url}} "> {{post.data.title}} </a> 
-         </li>
-    {% endfor %}
-    </ul>
+    {% for post in postlist %}  
+      
+        <section class="works">
+            <div class="works__inner">
 
-    
+                <div class="works__inner--first">
+                <h2>{{post.data.client.name}}</h2>
+                    <img src="{{ post.data.client.logo | url}} ">
+                </div>
+
+                <div class="works__inner--second">
+                    <h3>{{post.data.client.request}}</h3>
+                    <p>{{post.data.chapter.content_3}}</p>
+                    <a href="{{ post.url | url}} "> View more </a> 
+                </div>
+            </div> </section>
+    {% endfor %}
+   
