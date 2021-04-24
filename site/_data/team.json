@@ -1,12 +1,12 @@
 [
     {
         "name": "Pierre Njiné Happy",
-        "img": "../static/images/jeremy.png",
-        "quote":"Lorem Ipsum",
+        "img": "../static/images/jeremy.jpg",
+        "quote":"If I can't apologize for being wrong, then it's just a shame on me.",
         "socials": {
             "linkedIn":"https://www.linkedin.com/in/pierre-j%C3%A9r%C3%A9mie-ryan-njin%C3%A9-happy-552a26206/",
-            "stack":"",
-            "git":""
+            "stack":"https://stackoverflow.com/users/15221334/njin%c3%a9-happy-pierre-j%c3%a9r%c3%a9mie-r?tab=profile",
+            "git":"https://github.com/pgm-pierrejeremie"
         }
     },
     {

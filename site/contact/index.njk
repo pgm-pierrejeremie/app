@@ -4,20 +4,28 @@ eleventyNavigation:
   key: Contact
   order: 5
 title: Contact
-image: /static/images/contact-Top-Image.jpg
-description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
 
 ---
 
+<article class="article__flex">
+  <div class="article__flex--inner">
+    <h1>{{title}}</h1>
+    <p class="article--text" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+  </div>
+  
+  <img src="{{'/static/images/contact-Top-Image.jpg' | url }} " alt="Contact">
+ 
+</article>
 
-{% include "components/page-top.njk" %}
 
 {% include "components/form.njk" %}
-  
+    
+
+
 {% include "components/map.njk" %} 
     
 
