@@ -1,0 +1,12 @@
+.buttons{
+    margin-top:2rem;
+    .more{
+        background-color: $primary-color;
+        color:white;
+        padding: 1rem;
+    }
+    &--blue{
+        background-color: $secondary-color;
+        color:white;
+    }
+}

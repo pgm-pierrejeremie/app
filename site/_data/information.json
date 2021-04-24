@@ -1,8 +1,8 @@
 [
     {
         "title":"Services",
-        "description":"Check out our services we provide!",
-        "img":"test"
+        "description":"Optimize your digital experience and grow your organization. The best digital platform is one that is constantly being improved. Tracking, analysis and optimization ensure a unified digital experience that delivers lasting results.",
+        "img":"./static/images/services.jpg"
     },
     {
         "title":"Work",

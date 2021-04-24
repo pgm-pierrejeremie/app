@@ -17,8 +17,14 @@ description: Get great at designing amazing websites and mobile applications wit
 
 <div class="container">
     <div class="row">
-        <div class="col-7">
-            <p class="article--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+        <div class="col-6 blue">
+            <p class="article--text">JL Digital is a data and result driven Digital Agency based in Ghent. Superior digital experiences are only created by a multi-functional team. We have the talent and innovation to lead our customers to the best digital customer experience. We devise strategies, design, build and optimize digital experiences on an open source DXP with Drupal as core.</p>
+            <div class="buttons">
+                <a href="#" class="more">Discover more</a>
+            </div>
+        </div>
+        <div class="col-6 pict top-marg">
+            <img src="./static/images/wireframe.jpg" alt="">
         </div>
     </div>
 </div>
@@ -30,8 +36,11 @@ description: Get great at designing amazing websites and mobile applications wit
         <div class="col-6 article">
             <h2 class="article--title white">{{ info.title }}</h2>
             <p>{{ info.description }}</p>
+            <div class="buttons">
+                <a href="#" class="more--blue">Discover more</a>
+            </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 pict">
             <img src="{{ info.img }}" alt="">
         </div>
     </div>

@@ -2148,6 +2148,19 @@ input[type=submit]:hover {
   }
 }
 
+.buttons {
+  margin-top: 2rem;
+}
+.buttons .more {
+  background-color: #121212;
+  color: white;
+  padding: 1rem;
+}
+.buttons--blue {
+  background-color: #3700B3;
+  color: white;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -2166,7 +2179,7 @@ body {
 
 .landing-image {
   padding: 0rem 7rem;
-  height: 50rem;
+  height: 40rem;
   background-image: url("../images/home-pic.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -2198,11 +2211,27 @@ body {
 
 .page-item {
   background-color: #121212;
-  height: 20rem;
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   padding: 2rem;
+  color: white;
+}
+
+.blue {
+  background-color: #3700B3;
+  color: white;
+  padding: 2rem;
+  margin-top: -4rem;
+  height: 100%;
+}
+
+.top-marg {
+  margin-top: 1rem;
+}
+
+.pict img {
+  width: 100%;
 }
 
 .footer {

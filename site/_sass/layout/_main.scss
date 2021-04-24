@@ -5,7 +5,7 @@
 
 .landing-image{
     padding:0rem 7rem;
-    height:50rem;
+    height:40rem;
     background-image: url("../images/home-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -38,9 +38,27 @@
 }
 .page-item{
     background-color: $primary-color;
-    height: 20rem;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     padding: 2rem;
+    color:white;
+}
+.blue{
+    background-color: $secondary-color;
+    color: white;
+    padding: 2rem;
+    margin-top:-4rem;
+    height:100%;
+
+}
+
+.top-marg{
+    margin-top:1rem;
+}
+
+.pict{
+    img{
+        width:100%;
+    }
 }
