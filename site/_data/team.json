@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Pierre Njiné Happy",
+        "img": "../static/images/jeremy.png",
+        "quote":"Lorem Ipsum",
+        "socials": {
+            "linkedIn":"https://www.linkedin.com/in/pierre-j%C3%A9r%C3%A9mie-ryan-njin%C3%A9-happy-552a26206/",
+            "stack":"",
+            "git":""
+        }
+    },
+    {
+        "name": "Lucas Heymans",
+        "img": "../static/images/lucas.jpg",
+        "quote":"If you don't know it then you don't know it.",
+        "socials": {
+            "linkedIn":"https://www.linkedin.com/in/lucas-heymans-204755194/",
+            "stack":"https://stackoverflow.com/users/15036113/luxa-code",
+            "git":"https://github.com/pgm-lucaheym"
+        }
+    }
+]

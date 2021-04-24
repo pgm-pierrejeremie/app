@@ -1,0 +1,26 @@
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:2rem;
+    &__person{
+        background-color: $grayish-color;
+        text-align: center;
+        padding:2rem;
+            &-img{
+                width:50%;
+                border-radius: 50%;
+            }
+            .team-art{
+                margin-top:2rem;
+                &__socials{
+                    ul{
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-between;
+                        padding:0;
+                    }
+                }
+            }
+
+    }
+}
