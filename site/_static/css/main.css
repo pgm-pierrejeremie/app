@@ -1848,6 +1848,11 @@ input[type=submit]:hover {
   background-color: black;
   color: #FFFF;
 }
+@media screen and (max-width: 1060px) {
+  .works__inner {
+    flex-direction: column;
+  }
+}
 .works__inner h2 {
   margin-bottom: 2rem;
   text-decoration: underline palegoldenrod;
@@ -1864,11 +1869,31 @@ input[type=submit]:hover {
   color: palegoldenrod;
   text-decoration: underline;
 }
+.works__inner--first {
+  width: 30%;
+}
+@media screen and (max-width: 1060px) {
+  .works__inner--first {
+    width: 90%;
+    margin: auto;
+  }
+}
 .works__inner--first img {
   width: 100%;
+  margin-top: 2.7rem;
 }
-.works__inner--first--second {
-  width: 70%;
+.works__inner--second {
+  width: 50%;
+}
+@media screen and (max-width: 1060px) {
+  .works__inner--second {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .works__inner--second p {
+    text-align: center;
+  }
 }
 
 .detail__intro {
