@@ -13,7 +13,7 @@ testimony:
 chapter:
   heading_1: BMW
   content_1: BMW  is a German multinational corporation which produces luxury vehicles and motorcycles. Their high range in automobiles ensures the success of this large company. The company might've been founded in Germany but is nowadays appreciated in somewhat each country.
-  heading_2: some.png
+  heading_2: Creating a whole new level
   content_2: If you delve into BMW’s history, you will notice that the BMW logo  has been an essential element in all of its advertising campaigns. The logomark was first used as a symbol of recognition and differentiation in 1917 – years before the BMW aircraft engine manufacturer  would bring its first vehicles to market. But at that point, the company was still a long way away from a brand claim and wordmark.
   heading_3: A highly interactive webpage
   content_3: Automated driving, electro-mobility, on-demand mobility and connectivity-mobility have never been so fascinating, and automobile advancement never so exciting and promising as it is today. BMW would like to create a platform that brings you closer to this fascination and the latest technological trends. 

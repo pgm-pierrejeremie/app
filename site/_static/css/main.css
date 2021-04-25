@@ -2038,7 +2038,7 @@ input[type=submit]:hover {
 .technology__wrapper {
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5rem;
@@ -2073,6 +2073,9 @@ input[type=submit]:hover {
   .technology__wrapper--first p {
     justify-content: center;
   }
+}
+.technology__wrapper--second {
+  text-align: center;
 }
 @media screen and (max-width: 1500px) {
   .technology__wrapper--second {

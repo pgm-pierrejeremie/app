@@ -167,7 +167,7 @@
 .technology__wrapper{
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5rem;
@@ -206,6 +206,8 @@
     }
 
     &--second{
+        text-align: center;
+
         @media screen and (max-width:1500px) {
             display: flex;
            flex-direction: column-reverse;
