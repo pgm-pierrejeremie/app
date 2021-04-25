@@ -17,13 +17,13 @@ description: Get great at designing amazing websites and mobile applications wit
 
 <div class="container">
     <div class="row">
-        <div class="col-6 blue">
+        <div class="col-12 col-sm-6 blue">
             <p class="article--text">JL Digital is a data and result driven Digital Agency based in Ghent. Superior digital experiences are only created by a multi-functional team. We have the talent and innovation to lead our customers to the best digital customer experience. We devise strategies, design, build and optimize digital experiences on an open source DXP with Drupal as core.</p>
             <div class="buttons">
-                <a href="#" class="more">Discover more</a>
+                <a href="/11tyio-boilerplate/services/" class="more">Discover more</a>
             </div>
         </div>
-        <div class="col-6 pict top-marg">
+        <div class="col-12 col-sm-6 pict top-marg">
             <img src="./static/images/wireframe.jpg" alt="">
         </div>
     </div>
@@ -33,14 +33,14 @@ description: Get great at designing amazing websites and mobile applications wit
 <div class="container">
 {% for info in information %}
     <div class="row page-item">
-        <div class="col-6 article">
+        <div class="col-12 col-sm-6 article">
             <h2 class="article--title white">{{ info.title }}</h2>
             <p>{{ info.description }}</p>
             <div class="buttons">
-                <a href="#" class="more--blue">Discover more</a>
+                <a href="{{ info.link }}" class="more--blue">Discover more</a>
             </div>
         </div>
-        <div class="col-6 pict">
+        <div class="col-12 col-sm-6 pict">
             <img src="{{ info.img }}" alt="">
         </div>
     </div>
@@ -49,7 +49,7 @@ description: Get great at designing amazing websites and mobile applications wit
 <div class="container">
     <div class="customers row">
     {% for customer in customers %}
-        <div class="col-6 customers__logo">
+        <div class="col-12 col-sm-6 customers__logo">
             <img src="{{ customer.logo }}" alt="" class="customers__logo-img">
         </div>
     {% endfor %}

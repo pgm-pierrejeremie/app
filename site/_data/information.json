@@ -2,11 +2,13 @@
     {
         "title":"Services",
         "description":"Optimize your digital experience and grow your organization. The best digital platform is one that is constantly being improved. Tracking, analysis and optimization ensure a unified digital experience that delivers lasting results.",
-        "img":"./static/images/services.jpg"
+        "img":"./static/images/services.jpg",
+        "link":"/11tyio-boilerplate/services/"
     },
     {
         "title":"Work",
         "description":"We work tailor-made for international companies and SMEs. Large organizations such as Soudal, Gezinsbond and TVH count on Dropsolid for fully developed customized customer journeys and for complex stakeholder management. This is how they accomplish their digital transformation.",
-        "img":"./static/images/work.jpg"
+        "img":"./static/images/work.jpg",
+        "link":"/11tyio-boilerplate/work/"
     }
 ]

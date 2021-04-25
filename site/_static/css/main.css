@@ -2196,6 +2196,7 @@ input[type=submit]:hover {
   background-color: #e0dfdf;
   text-align: center;
   padding: 2rem;
+  margin-top: 2rem;
 }
 .team__person-img {
   width: 50%;
