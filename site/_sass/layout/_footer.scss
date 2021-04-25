@@ -4,3 +4,19 @@
     color: $gray-100;
     padding: #{$spacing * 4px} 0;
 }
+
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    &__content{
+        display: flex;
+        list-style: none;
+        li{
+            margin: 0 1rem;
+        }
+    }
+
+    
+}
