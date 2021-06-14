@@ -8,15 +8,5 @@
             "stack":"https://stackoverflow.com/users/15221334/njin%c3%a9-happy-pierre-j%c3%a9r%c3%a9mie-r?tab=profile",
             "git":"https://github.com/pgm-pierrejeremie"
         }
-    },
-    {
-        "name": "Lucas Heymans",
-        "img": "../static/images/lucas.jpg",
-        "quote":"If you don't know it then you don't know it.",
-        "socials": {
-            "linkedIn":"https://www.linkedin.com/in/lucas-heymans-204755194/",
-            "stack":"https://stackoverflow.com/users/15036113/luxa-code",
-            "git":"https://github.com/pgm-lucaheym"
-        }
     }
 ]
